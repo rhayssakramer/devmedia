@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+    <title>DevMedia - Seu canal de notícias tech!</title>
+</head>
+
+<body>
+    <header class="menu">
+        <div class="menu-logo">
+            <a href="index.html">DevMedia</a>
+        </div>
+        <div class="menu-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Pagina2.html">Login</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#noticias">Notícias</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="quiz">
+        <div class="quiz">
+            <div class="quiz-title">
+                <h1>Quiz DevMedia</h1>
+                <p>Seja bem-vindo ao nosso Portal DevMedia. Respondendo ao nosso Quiz você concorrerá a prêmios
+                    exclusivos da nossa plataforma.</p>
+                <p>Ao enviar suas respostas, você receberá a confirmação por e-mail e mais detalhes sobre os prêmios.
+                </p>
+            </div>
+            <div class="quiz-forms">
+                <form>
+                    <fieldset>
+                        <legend>Preencha o formulário abaixo:</legend>
+                        <label>
+                            <h3>Qual o seu Nome Completo?</h3>
+                            <input placeholder="Digite seu nome cmpleto" type="text" name="Nome Completo" size=60>
+                            <h3>Qual a sua Idade?</h3>
+                            <input placeholder="Digite sua idade" type="text" name="Idade" size=30>
+                            <h3>Qual o seu E-mail?</h3>
+                            <input placeholder="Digite seu e-mail" type="email" name="E-mail" size=30>
+                        </label>
+                        <label>
+                            <h3>Você já é Membro do Portal DevMedia?</h3>
+                            <input type="radio" name="membro" value="1">Sim
+                            <input type="radio" name="membro" value="2">Não
+
+                            <h3>Você gosta de ler sobre Notícias de Tecnologia</h3>
+                            <input type="radio" name="conjunto" value="1">Sim
+                            <input type="radio" name="conjunto" value="2">Não
+                        </label>
+                        <label>
+                            <h3>Com que frequência você lê sobre Notícias de Tecnologia?</h3>
+                            <select class="select" name="frequencia">
+                                <option name="Todos os dias">Todo os dia</option>
+                                <option name="Três vezes na semana">Três vezes na semana</option>
+                                <option name="Uma vez por semana">Uma vez por semana</option>
+                                <option name="A cada duas semanas">A cada duas semanas</option>
+                                <option name="Mais de duas semanas">Mais de duas semanas</option>
+                            </select>
+                        </label>
+                        <label>
+                            <h3>Qual o assunto de Tecnologia que você mais gosta?</h3>
+                            <h4>Escolha seus interesses:</h4>
+                            <input type="checkbox" value="Inteligência Artificial">
+                            <label for="Inteligência Artificial">Inteligência Artificial</label><br>
+                            <input type="checkbox" value="Redes Socias">
+                            <label for="Redes Sociais">Redes Sociais</label><br>
+                            <input type="checkbox" value="Carreiras Tech">
+                            <label for="Carreiras Tech">Carreiras tech</label><br>
+                            <input type="checkbox" value="Segurança da Informação">
+                            <label for="Segurança da Informação">Segurança da Informação</label><br>
+                            <input type="checkbox" value="Devops">
+                            <label for="Devops">Devops</label><br>
+                            <input type="checkbox" value="Dados e Negócios">
+                            <label for="Dados e Negócios">Dados e Negócios</label><br>
+                            <input type="checkbox" value="Desenvolvimento de Software">
+                            <label for="Desenvolvimento de Software">Desenvolvimento de Software</label><br>
+                            <input type="checkbox" value="Ux/Ui Desgin">
+                            <label for="Ux/Ui Desgin">Ux/Ui Design</label><br>
+                            <input type="checkbox" value="Customer Experience">
+                            <label for="Customer Experience">Customer Experience</label>
+                        </label>
+                        <label>
+                            <h3>Qual a sua avaliação sobre a Plataforma DevMedia?</h3>
+                            <input type="radio" value="1">Maravilhosa
+                            <input type="radio" value="2">Muito boa
+                            <input type="radio" value="3">Boa
+                            <input type="radio" value="4">Ruim
+                            <input type="radio" value="5">Péssima
+                        </label>
+                        <label>
+                            <h3>Quanto você indicaria a nossa Plataforma DevMedia?</h3>
+                            <p>Em uma escala de 0 a 5, onde 5 seria que "Muito provavelmente" indicaria e 0 seria que
+                                "Não indicaria".</p>
+                            <input type="radio" value="1">5
+                            <input type="radio" value="2">4
+                            <input type="radio" value="3">3
+                            <input type="radio" value="4">2
+                            <input type="radio" value="5">1
+                            <input type="radio" value="6">0
+                        </label>
+                        <label class="area">
+                            <h3>Deixe seu comentário sobre a nossa Plataforma:</h3>
+                            <textarea class="caixa" placeholder="Escreva seu comentário" name="mensagem"></textarea><br>
+                        </label>
+                    </fieldset>
+                </form>
+                <button class="button-forms" onclick="mensagem()">Enviar</button>
+                <button type="reset" class="reset-forms" name="resetar">Limpar</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Desenvolvido por <a href="index.html">DevMedia</a><br> Copyright© 2023. Todos os direitos reservados.</p>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>

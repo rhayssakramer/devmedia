@@ -1,0 +1,402 @@
+/* Estilos Globais */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos Body */
+body {
+  background-color: #faf3fb;
+}
+
+/* Menu/Header */
+.menu {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #7a747b33;
+  border-radius: 0 0 15px 15px;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+
+.menu-logo a {
+  margin: 0 10px;
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  background: linear-gradient(#75038c, #b97cc9);
+  padding: 3px 20px;
+  border-radius: 30px;
+  color: #ffff;
+}
+
+.menu-logo a:hover {
+  color: #b97cc9;
+}
+
+.menu-nav a {
+  font-size: 1, 25em;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.menu-nav a:hover {
+  color: #75038c;
+}
+
+.menu-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu-nav ul li {
+  margin: 3px;
+  background-color: #b97cc9;
+  width: 100px;
+  border-radius: 20px;
+  box-shadow: 20px 10px #000 10px 20px;
+  text-align: center;
+}
+
+.menu-nav ul li:hover{
+  transform: scale(1.1);
+}
+
+/* Boas-Vindas */
+.boas-vindas{
+  margin-top: 100px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.boas-vindas h3{
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  color: #75038c;
+}
+
+.boas-vindas input{
+  border-radius: 20px;
+  border: 1px solid #7a747b33;
+  box-shadow: 20px 20px #000 20px 20px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.boas-vindas button{
+  padding: 6px 6px;
+  border-radius: 15px;
+  border: 1px solid #7a747b33;
+  width: 60px;
+  cursor: pointer;
+  background-color: #75038c;
+  color: #fff;
+  font-weight: bold;
+}
+
+.boas-vindas button:hover{
+  color: #b97cc9;
+  transform: scale(1.1);
+}
+
+/* Corpo do Conteúdo */
+.content {
+  text-align: center;
+}
+
+.content-title {
+  font-size: 30px;
+  text-align: center;
+  color: #b97cc9;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.content-line{
+  border: 1px solid #75038c;
+  width: 926px; 
+  margin-left: 208px;
+}
+
+.content-notice{
+  padding: 40px 0;
+  text-align: center;
+}
+
+.content-notice p {
+  text-align: justify;
+  max-width: 960px;
+  margin: 200px;
+}
+
+.content-notice a {
+  text-decoration: none;
+  color: #75038c;
+  font-weight: bold;
+}
+
+.content-notice a:hover {
+  color: #b97cc9;
+}
+
+.content-primary, .content-secundary, .content-terciary, .content-quart{
+  align-items: center;
+}
+
+.content-primary h2, .content-secundary h2, .content-terciary h2{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content-primary p, .content-secundary p, .content-terciary p, .content-quart p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content-primary img, .content-terciary img{
+  width: 500px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.content-secundary h1{
+  background-image: url(/assets/images/ia.jpg);
+  min-height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.content-terciary h1{
+  background-image: url(/assets/images/ia.jpg);
+  min-height: 200px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Tabela */
+.tabela table {
+  align-items: center;
+  margin: 10px;
+  padding-left: 550px;
+}
+
+.tabela td {
+  text-align: left;
+  padding: 5px;
+}
+
+/* Footer */
+
+.footer {
+  height: 100px;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #85858533;
+}
+
+.footer p{
+  text-align: center;
+  font-size: 18px;
+  color: #75038c;
+}
+
+.footer a{
+  color: #75038c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  color: #DA7EE3;
+}
+
+/* Login-Senha */
+
+.form-login {
+  margin-top: 150px;
+  margin-bottom: 114px;
+  margin-left: 28%;
+  background-color: #85858533;
+  padding: 20px;
+  max-width: 600px;
+  text-align: center;
+  border-radius: 20px
+}
+
+.form-login h3{
+  color: #75038c;
+}
+
+.form-login p{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login{
+  text-align: left;
+}
+
+.login p {
+  margin-top: 10px;
+  margin-left: 60px;
+  padding: 5px;
+  text-align: left;
+}
+
+.login input {
+  border-radius: 20px;
+  border: 1px solid #7a747b33;
+  box-shadow: 20px 20px #000 20px 20px;
+  padding: 10px;
+  margin-left: 60px;
+}
+
+.login button {
+  width: 400px;
+  padding: 10px;
+  margin-left: 15%;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #75038c;
+  border: 1px solid #7a747b33;
+  color: #fff;
+}
+
+.login button:hover{
+  color: #b97cc9;
+  transform: scale(1.1);
+}
+
+/* Quiz */
+
+.quiz{
+  margin-top: 100px;
+  
+}
+
+.quiz-title h1 {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #75038c;
+}
+
+.quiz-title p {
+  text-align: center;
+}
+
+.quiz-forms {
+  padding: 40px;
+  margin-top: -80px;
+}
+
+.quiz-forms form{
+  margin-top: 60px;
+  margin-left: 15px;
+  background-color:  #85858533;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.quiz-forms form legend{
+  color: #000000;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 2px;
+}
+
+.quiz-forms form fieldset{
+  margin: 15px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #00000033;
+}
+
+.quiz-forms form h3{
+  color: #75038c;
+  margin-top: 15px;
+  
+}
+
+.quiz-forms form h4{
+  margin-top: 15px;
+  
+}
+
+.quiz-forms input{
+  border-radius: 10px;
+  border: 1px solid #00000033;
+  cursor: pointer;
+  box-shadow: 20px 20px #000 20px 20px;
+  padding: 10px;
+  margin: 5px;
+  margin-top: 5px;
+}
+
+.quiz-forms select{
+  border-radius: 10px;
+  border: 1px solid #00000033;
+  width: 200px;
+  padding: 10px;
+}
+
+.caixa {
+  width: 500px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid #00000033;
+}
+
+.caixa::placeholder {
+  padding: 5px;
+}
+
+.reset-forms{
+  padding: 6px 6px;
+  border-radius: 15px;
+  border: 1px solid #7a747b33;
+  width: 80px;
+  cursor: pointer;
+  background-color: #75038c;
+  color: #fff;
+  font-weight: bold;
+}
+
+.reset-forms:hover{
+  color: #b97cc9;
+  transform: scale(1.1);
+}
+
+.button-forms{
+  margin-top: 15px;
+  padding: 6px 6px;
+  border-radius: 15px;
+  border: 1px solid #7a747b33;
+  width: 80px;
+  cursor: pointer;
+  background-color: #75038c;
+  color: #fff;
+  font-weight: bold;
+}
+
+.button-forms:hover{
+  color: #b97cc9;
+  transform: scale(1.1);
+}
