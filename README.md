@@ -7,7 +7,8 @@ O objetivo da disciplina era apresentar e exercitar os principais fundamentos b�
 Para executar o projeto, será necessário configurar um servidor HTTP local. Esse projeto `Frontend` foi desenvolvimento em **HTML**, **CSS** **JavaScript**, para implementar um clone de página do critério do aluno preenchendo os requisitons descritos abaixo.
 
 ## Resultado do Projeto:
-
+<img src="https://github.com/rhayssakramer/DevMedia-Frontend/blob/main/assets/results/results1.png" alt="Resultado do Projeto" width="500px"><img src="https://github.com/rhayssakramer/DevMedia-Frontend/blob/main/assets/results/results2.png" alt="Resultado do Projeto" width="500px"><img src="https://github.com/rhayssakramer/DevMedia-Frontend/blob/main/assets/results/results3.png" alt="Resultado do Projeto" width="500px"><img src="https://github.com/rhayssakramer/DevMedia-Frontend/blob/main/assets/results/results4.png" alt="Resultado do Projeto" width="500px">
+<img src="https://github.com/rhayssakramer/DevMedia-Frontend/blob/main/assets/results/results5.png" alt="Resultado do Projeto" width="500px"><img src="https://github.com/rhayssakramer/DevMedia-Frontend/blob/main/assets/results/results6.png" alt="Resultado do Projeto" width="500px"><img src="https://github.com/rhayssakramer/DevMedia-Frontend/blob/main/assets/results/results7.png" alt="Resultado do Projeto" width="500px"><img src="https://github.com/rhayssakramer/DevMedia-Frontend/blob/main/assets/results/results8.png" alt="Resultado do Projeto" width="500px">
 ## Tecnologias Utilizadas:
 
 | Linguagens de Programação | Ferramentas e Tecnologias |
